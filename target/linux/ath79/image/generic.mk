@@ -1564,7 +1564,7 @@ endef
 TARGET_DEVICES += meraki_mr16
 
 define Device/mercury_mw4530r-v1
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   SOC := ar9344
   DEVICE_VENDOR := Mercury
   DEVICE_MODEL := MW4530R
